@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Sort.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int  array[] = {12, 14, 54, 5, 6, 3, 9, 8, 47, 89, -1};
+
+    bubbleSort(array, 10) ;
+    
+    for (int i=0; i < 10; i++)
+    {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
 }
 
 

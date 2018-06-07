@@ -15,6 +15,8 @@
 		8FA9D3F320C8D5D7005AFEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D3F220C8D5D7005AFEDF /* main.m */; };
 		8FA9D3FD20C8D5D8005AFEDF /* algorithmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D3FC20C8D5D8005AFEDF /* algorithmDemoTests.m */; };
 		8FA9D40820C8D5D8005AFEDF /* algorithmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D40720C8D5D8005AFEDF /* algorithmDemoUITests.m */; };
+		8FA9D41920C8D663005AFEDF /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D41820C8D663005AFEDF /* Sort.m */; };
+		8FA9D41B20C8D7D4005AFEDF /* 九大排序算法原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8FA9D41A20C8D7D4005AFEDF /* 九大排序算法原理.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		8FA9D40320C8D5D8005AFEDF /* algorithmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algorithmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA9D40720C8D5D8005AFEDF /* algorithmDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = algorithmDemoUITests.m; sourceTree = "<group>"; };
 		8FA9D40920C8D5D8005AFEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA9D41720C8D663005AFEDF /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		8FA9D41820C8D663005AFEDF /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		8FA9D41A20C8D7D4005AFEDF /* 九大排序算法原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "九大排序算法原理.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,7 @@
 			children = (
 				8FA9D3E320C8D5D6005AFEDF /* AppDelegate.h */,
 				8FA9D3E420C8D5D6005AFEDF /* AppDelegate.m */,
+				8FA9D41620C8D5E8005AFEDF /* Sort */,
 				8FA9D3E620C8D5D6005AFEDF /* ViewController.h */,
 				8FA9D3E720C8D5D6005AFEDF /* ViewController.m */,
 				8FA9D3E920C8D5D6005AFEDF /* Main.storyboard */,
@@ -130,6 +136,16 @@
 				8FA9D40920C8D5D8005AFEDF /* Info.plist */,
 			);
 			path = algorithmDemoUITests;
+			sourceTree = "<group>";
+		};
+		8FA9D41620C8D5E8005AFEDF /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9D41A20C8D7D4005AFEDF /* 九大排序算法原理.pdf */,
+				8FA9D41720C8D663005AFEDF /* Sort.h */,
+				8FA9D41820C8D663005AFEDF /* Sort.m */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +253,7 @@
 			files = (
 				8FA9D3F020C8D5D7005AFEDF /* LaunchScreen.storyboard in Resources */,
 				8FA9D3ED20C8D5D7005AFEDF /* Assets.xcassets in Resources */,
+				8FA9D41B20C8D7D4005AFEDF /* 九大排序算法原理.pdf in Resources */,
 				8FA9D3EB20C8D5D6005AFEDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA9D3E820C8D5D6005AFEDF /* ViewController.m in Sources */,
+				8FA9D41920C8D663005AFEDF /* Sort.m in Sources */,
 				8FA9D3F320C8D5D7005AFEDF /* main.m in Sources */,
 				8FA9D3E520C8D5D6005AFEDF /* AppDelegate.m in Sources */,
 			);
